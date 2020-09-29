@@ -8,12 +8,12 @@
 </head>
 <body>
     <header>
-        <h1>Javascript Kezdőknek</h1>
+        <h1 name='cimsor'>Javascript Kezdőknek</h1>
     </header>
 
     <section class="container">
         <form id="user-form">
-          <h1>Felhasználó hozzáadása</h1>
+          <h1 name='cimsor'>Felhasználó hozzáadása</h1>
           
           <div class="message"></div>
 
@@ -29,7 +29,7 @@
 
           <div>
             <label for="type">Típus:</label>
-            <select>
+            <select id="role">
               <option value="1">Admin</option>
               <option value="2">User</option>
             </select>
@@ -40,11 +40,11 @@
   
         <ul id="userlist"></ul>
   
-        <ul class="items">
+        <!-- <ul class="items">
           <li class="item">Item 1</li>
           <li class="item">Item 2</li>
           <li class="item">Item 3</li>
-        </ul>
+        </ul> -->
       </section>
 
     <script src="demo.js"></script>
